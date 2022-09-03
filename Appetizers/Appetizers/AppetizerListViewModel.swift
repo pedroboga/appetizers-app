@@ -10,11 +10,14 @@ import SwiftUI
 final class AppetizerListViewModel: ObservableObject {
     @Published var appetizers: [Appetizer] = []
     @Published var alertItem: AlertItem?
+    @Published var isLoading: Bool = false
     
     func getAppetizers() {
+        isLoading = true
         NetworkManager.shared.getAppetizers { [weak self] result in
             guard let self = self else { return }
             DispatchQueue.main.async {
+                self.isLoading = false
                 switch result {
                 case .success(let appetizers):
                     self.appetizers = appetizers
