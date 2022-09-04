@@ -18,6 +18,7 @@
 		5ACC546E28C37A5A00C1D34B /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACC546D28C37A5A00C1D34B /* APError.swift */; };
 		5ACC547028C38E3800C1D34B /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACC546F28C38E3800C1D34B /* AppetizerListViewModel.swift */; };
 		5ACC547228C39A4900C1D34B /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACC547128C39A4900C1D34B /* Alert.swift */; };
+		5ACC547428C43A7900C1D34B /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACC547328C43A7900C1D34B /* RemoteImage.swift */; };
 		5AF7A5D828BFF05200C5A599 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7A5D728BFF05200C5A599 /* Appetizer.swift */; };
 		5AF7A5DA28C02B9300C5A599 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7A5D928C02B9300C5A599 /* AppetizerListCell.swift */; };
 /* End PBXBuildFile section */
@@ -35,6 +36,7 @@
 		5ACC546D28C37A5A00C1D34B /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		5ACC546F28C38E3800C1D34B /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 		5ACC547128C39A4900C1D34B /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		5ACC547328C43A7900C1D34B /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		5AF7A5D728BFF05200C5A599 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 		5AF7A5D928C02B9300C5A599 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +84,7 @@
 				5ACC546D28C37A5A00C1D34B /* APError.swift */,
 				5ACC546F28C38E3800C1D34B /* AppetizerListViewModel.swift */,
 				5ACC547128C39A4900C1D34B /* Alert.swift */,
+				5ACC547328C43A7900C1D34B /* RemoteImage.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 				5AF7A5D828BFF05200C5A599 /* Appetizer.swift in Sources */,
 				5ACC546E28C37A5A00C1D34B /* APError.swift in Sources */,
 				5AF7A5DA28C02B9300C5A599 /* AppetizerListCell.swift in Sources */,
+				5ACC547428C43A7900C1D34B /* RemoteImage.swift in Sources */,
 				5ACC547028C38E3800C1D34B /* AppetizerListViewModel.swift in Sources */,
 				5A0FD8A628BDA09900B8B918 /* AccountView.swift in Sources */,
 				5A0FD89828BDA03200B8B918 /* AppetizerTabView.swift in Sources */,
