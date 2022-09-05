@@ -25,6 +25,7 @@
 		5AD8A7E328C53F4500716C45 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8A7E228C53F4500716C45 /* AccountViewModel.swift */; };
 		5AD8A7E628C5419F00716C45 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8A7E528C5419F00716C45 /* String+Ext.swift */; };
 		5AD8A7E828C563F300716C45 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8A7E728C563F300716C45 /* User.swift */; };
+		5AD8A7EB28C595F600716C45 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8A7EA28C595F600716C45 /* EmptyStateView.swift */; };
 		5AF7A5D828BFF05200C5A599 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7A5D728BFF05200C5A599 /* Appetizer.swift */; };
 		5AF7A5DA28C02B9300C5A599 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7A5D928C02B9300C5A599 /* AppetizerListCell.swift */; };
 /* End PBXBuildFile section */
@@ -49,6 +50,7 @@
 		5AD8A7E228C53F4500716C45 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		5AD8A7E528C5419F00716C45 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		5AD8A7E728C563F300716C45 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5AD8A7EA28C595F600716C45 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
 		5AF7A5D728BFF05200C5A599 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 		5AF7A5D928C02B9300C5A599 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -179,6 +181,7 @@
 		5ACC547E28C43F1B00C1D34B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5AD8A7E928C595DB00716C45 /* Empty State */,
 				5AD8A7DD28C4D8F600716C45 /* Buttons */,
 				5ACC548028C43F3500C1D34B /* Image */,
 				5ACC547F28C43F2200C1D34B /* Cells */,
@@ -225,6 +228,14 @@
 				5AD8A7E528C5419F00716C45 /* String+Ext.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5AD8A7E928C595DB00716C45 /* Empty State */ = {
+			isa = PBXGroup;
+			children = (
+				5AD8A7EA28C595F600716C45 /* EmptyStateView.swift */,
+			);
+			path = "Empty State";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +310,7 @@
 			files = (
 				5AF7A5D828BFF05200C5A599 /* Appetizer.swift in Sources */,
 				5ACC546E28C37A5A00C1D34B /* APError.swift in Sources */,
+				5AD8A7EB28C595F600716C45 /* EmptyStateView.swift in Sources */,
 				5AF7A5DA28C02B9300C5A599 /* AppetizerListCell.swift in Sources */,
 				5AD8A7E628C5419F00716C45 /* String+Ext.swift in Sources */,
 				5ACC547428C43A7900C1D34B /* RemoteImage.swift in Sources */,
