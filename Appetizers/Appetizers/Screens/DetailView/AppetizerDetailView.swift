@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AppetizerDetailView: View {
     @EnvironmentObject var order: Order
-    @State var appetizer: Appetizer
+    let appetizer: Appetizer
     @Binding var isShowingDetail: Bool
     
     var body: some View {
