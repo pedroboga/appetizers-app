@@ -9,8 +9,9 @@ import SwiftUI
 
 struct APButton: View {
     let price: Double
+    let textButton: String
     var body: some View {
-        Text("\(price , format: .currency(code: Locale.current.currencyCode ?? "USD")) - Add to Order")
+        Text("\(price , format: .currency(code: Locale.current.currencyCode ?? "USD")) - \(textButton)")
             .font(.title3)
             .fontWeight(.semibold)
             .frame(width: 260, height: 50)
@@ -22,6 +23,6 @@ struct APButton: View {
 
 struct APButton_Previews: PreviewProvider {
     static var previews: some View {
-        APButton(price: 9.99)
+        APButton(price: 9.99, textButton: "Place Order")
     }
 }
