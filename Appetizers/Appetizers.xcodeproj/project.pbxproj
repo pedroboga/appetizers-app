@@ -29,6 +29,7 @@
 		5ADCA09028C6114F00EA1FE8 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADCA08F28C6114F00EA1FE8 /* Order.swift */; };
 		5AF7A5D828BFF05200C5A599 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7A5D728BFF05200C5A599 /* Appetizer.swift */; };
 		5AF7A5DA28C02B9300C5A599 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7A5D928C02B9300C5A599 /* AppetizerListCell.swift */; };
+		5AF8369428C7856100FF1EDB /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF8369328C7856100FF1EDB /* Date+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		5ADCA08F28C6114F00EA1FE8 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		5AF7A5D728BFF05200C5A599 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 		5AF7A5D928C02B9300C5A599 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
+		5AF8369328C7856100FF1EDB /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +231,7 @@
 			isa = PBXGroup;
 			children = (
 				5AD8A7E528C5419F00716C45 /* String+Ext.swift */,
+				5AF8369328C7856100FF1EDB /* Date+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				5A0FD89828BDA03200B8B918 /* AppetizerTabView.swift in Sources */,
 				5ACC546C28C3797E00C1D34B /* NetworkManager.swift in Sources */,
 				5AD8A7DC28C4C70800716C45 /* AppetizerDetailView.swift in Sources */,
+				5AF8369428C7856100FF1EDB /* Date+Ext.swift in Sources */,
 				5A0FD89628BDA03200B8B918 /* AppetizersApp.swift in Sources */,
 				5AD8A7E328C53F4500716C45 /* AccountViewModel.swift in Sources */,
 				5AD8A7DF28C4D90B00716C45 /* APButton.swift in Sources */,
